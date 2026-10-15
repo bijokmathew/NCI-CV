@@ -1,0 +1,108 @@
+body{
+  background-color:white;
+  padding-left: 20px
+}
+.header h1{
+   text-align: center;
+   font-weight: bold;
+ }
+.header h3{
+  margin: 10,0,10,0;
+  text-align: center;
+}
+.header h3 > em {
+  text-decoration: underline;
+}
+ .subHeader {
+  padding: 8px;
+  background-color:#e7e7e7;
+  text-transform: uppercase;
+}
+/**  nav **/
+.nav{
+  display: flex;
+  background-color:#8c8c8c;
+  padding: 8px;
+  justify-content:space-around;
+}
+
+.nav a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/**  profile **/
+#profile p {
+  padding: 7px;
+}
+#profile > .subHeader {
+  text-align: center;
+}
+
+/**  education  exp skilss  section **/
+
+.key{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/**  footer  section **/
+
+.footer{
+  display: flex;
+  background-color: #8c8c8c;
+  margin-top:20px;
+  padding: 10 0 10 0;
+  padding: 10px;
+  justify-content:space-between;
+}
+/**  media query for education  exp skilss  section **/
+@media(min-width:660px) {
+  .row{
+    display: flex;
+    justify-content:space-between;
+  }
+  .column {
+    background-color: grey;
+    flex-basis: 30%;
+    height: 70vh;
+    overflow: scroll;
+    padding:10px;
+  }
+}
+
+
+
+.skills p {
+
+}
+h3 span {
+  margin-left: 50px;
+}
+.exp-desc{
+  margin-left: 180px
+}
+table{
+  margin-left: 20px
+}
+
+tr{
+  height: 80px;
+}
+.year{
+  width: 400px
+}
+.sub{
+  align-items: center;
+  width: 1500px;
+  padding: 20px;
+
+}
+.refer{
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  text-decoration: underline;
+}
